@@ -1,142 +1,88 @@
-# Developer Portfolio
+# Shibam Dey Roy | Full Stack Developer Portfolio
 
-A modern, high-performance personal portfolio website built with React, Vite, and Tailwind CSS.
+A professional, high-performance, and visually stunning personal portfolio website built with **React 19**, **Vite 8**, and **Tailwind CSS**. Designed to showcase technical expertise, projects, and achievements with a premium user experience..
 
-## ✨ Features
+---
 
-- **Hero Section** - Animated typing effect with particle background
-- **About Section** - Personal story with stats and highlights
-- **Skills Section** - Categorized skills with progress bars
-- **Projects Section** - Filterable project showcase with hover effects
-- **Experience Timeline** - Work history and education timeline
-- **Contact Section** - Functional contact form with validation
-- **Dark/Light Mode** - Theme toggle with smooth transitions
-- **Custom Cursor** - Animated custom cursor
-- **Scroll Progress** - Progress indicator at top of page
-- **Fully Responsive** - Mobile-first design
-- **SEO Optimized** - Meta tags, semantic HTML, OG tags
+## ✨ Key Features
+
+- **🚀 Interactive 3D Tech Globe** - Explore technical stack via a custom-built, mouse-tracking 3D rotating sphere.
+- **🎨 Modern "About Me" Design** - Premium circular profile layout with rotating conic gradients and animated status indicators.
+- **🔍 Achievement Lightbox** - Full-screen viewing for certificates and project milestones with smooth animated transitions.
+- **⚡ High-Performance Hover Effects** - Subtly refined interactions across projects and interactive elements.
+- **✉️ Functional Contact Form** - Integrated with Web3Forms for direct-to-email messaging without a backend.
+- **📱 Fully Responsive** - Optimized for mobile, tablet, and desktop with fluid layouts.
+- **🎭 Advanced Animations** - Powered by Framer Motion for a "living" interface feel.
+- **💎 Custom Branding** - Personalized "SDR" favicon and specialized typography.
+
+---
+
+## 🛠️ Technical Arsenal
+
+- **Core**: React 19 + Vite 8
+- **Styling**: Tailwind CSS (Mobile-first, Dark/Light Mode)
+- **Animations**: Framer Motion
+- **Interactions**: Swiper.js, Lucide React
+- **Submission**: Web3Forms API
+- **Deployment**: Optimized for Vercel / Netlify
+
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-
 - Node.js 18+ 
 - npm or yarn
 
 ### Installation
-
-1. Clone or download the repository:
-```bash
-cd portfolio
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-## 🛠️ Tech Stack
-
-- **React 19** - UI library
-- **Vite 8** - Build tool
-- **Tailwind CSS 3** - Styling
-- **Framer Motion** - Animations
-- **Lucide React** - Icons
-- **React Intersection Observer** - Scroll animations
-
-## 📦 Build
-
-To create a production build:
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist/` directory.
-
-## 🚀 Deployment
-
-### Option 1: Deploy to Vercel
-
-```bash
-npm i -g vercel
-vercel
-```
-
-### Option 2: Deploy to Netlify
-
-```bash
-npm i -g netlify-cli
-netlify deploy --prod --dir=dist
-```
-
-### Option 3: GitHub Pages
-
-1. Update `vite.config.js`:
-```javascript
-export default {
-  base: '/your-repo-name/',
-  // ... rest of config
-}
-```
-
-2. Build and deploy:
-```bash
-npm run build
-git subtree push --prefix dist origin gh-pages
-```
-
-## 📝 Customization
-
-### Update Personal Information
-
-1. **Hero Section** - Edit `src/components/Hero.jsx`
-   - Change name: Look for "Alex Chen"
-   - Update roles array for typing effect
-   - Update description
-
-2. **About Section** - Edit `src/components/About.jsx`
-   - Update personal story
-   - Update stats
-   - Update highlights
-
-3. **Skills Section** - Edit `src/components/Skills.jsx`
-   - Modify skill categories
-   - Update skill levels
-
-4. **Projects Section** - Edit `src/components/Projects.jsx`
-   - Replace project data with your own
-   - Update images, descriptions, links
-
-5. **Timeline** - Edit `src/components/Timeline.jsx`
-   - Add your work experience
-   - Update education
-   - Add certifications
-
-6. **Contact Section** - Edit `src/components/Contact.jsx`
-   - Update email
-   - Update location
-   - Update social links
-
-### Update Resume
-
-Replace `public/resume.pdf` with your own resume.
-
-### Update Colors
-
-Edit `tailwind.config.js` to change the primary color scheme.
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mrdeyroy/SDR-Portfolio.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd SDR-Portfolio
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run in development mode:
+   ```bash
+   npm run dev
+   ```
 
 ---
 
-Built with ❤️ using React + Vite + Tailwind CSS
+## 📦 Build & Deployment
+
+To create a production-ready bundle:
+```bash
+npm run build
+```
+The optimized files will be generated in the `dist/` directory, ready to be hosted on platforms like Vercel, Netlify, or AWS Amplify.
+
+---
+
+## 📝 Customization Guide
+
+### Personalization
+- **Profile Info**: Edit `src/components/About.jsx` to update your story, stats, and focus areas.
+- **Achievements**: Modify the `achievements` array in `src/components/Skills.jsx`.
+- **Projects**: Update your work showcase in `src/components/Projects.jsx`.
+- **Contact**: Put your Web3Forms access key in `src/components/Contact.jsx`.
+
+### Media Assets
+Replace images in the `public/` directory:
+- `pfpp.png`: Your profile picture.
+- `hero-avatar.png`: Your cartoon/sticker style avatar.
+- `achievements/`: Your certificate/milestone images.
+
+---
+
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+Built with ❤️ by [Shibam Dey Roy](https://github.com/mrdeyroy)
